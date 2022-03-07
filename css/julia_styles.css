@@ -1,0 +1,736 @@
+	body{
+		background-color: #0C1019; 
+		background-image: url(../img/bg/Cardboard2.jpg) ; 
+		background-repeat: repeat;
+		color: #ece6d9; font-size: 12px;}
+
+	#main_container{
+		width: 960px;
+		margin: 0 auto;
+	}
+	
+	body a{
+		font-weight: bold; color: #8ebbbc; 
+		text-decoration:underline;
+	}
+	
+	body a:hover {
+		color: white;
+		text-decoration:none;
+	}
+	
+	b { font-family: 'ProximaNovaBold' Helvetica, Sans-Serif;}
+	
+	#bullet_list{
+		list-style: circle;
+		display: inline;
+	}
+	
+	#tennis_club{
+		font-family: helvetica, sans-serif;
+		font-size: .8em;
+	}
+	
+	#tennis_club hr{
+		margin: 20px 0px;		
+	}
+
+	
+/*MAIN NAVIGATION*/	
+
+	#main_navigation{
+		width: 100%;
+		display: block;
+		color: white;
+		position: fixed;
+		z-index: 800;
+		background-image: url(../img/bg/nav_bg.png);
+		border: 2px solid #A0CECC;
+		box-shadow: 0px 3px 11px #333;
+		padding: 7px 5px 2px 11px;
+		top: -4px;
+		margin: 0 auto;
+		left: -2px;
+		height: 40px;
+	}
+	
+	.social_button{
+		font-size: 10px;
+		top: -3px;
+		position: relative;
+	}
+	
+	#main_navigation_inner{
+		width: 960px;
+		margin: 0px auto;
+		padding: 0px;
+	}
+	
+	#main_navigation a {
+		font-weight: normal;
+		color: white;
+		text-decoration: none;
+	}
+	
+	#main_navigation a:hover {
+		font-weight: normal;
+		padding-bottom: 13px;
+		border-bottom: 2px solid #EFFF8B;
+	}
+	
+	#header_logo a:hover {
+		padding-bottom: 5px;
+	}
+
+	
+	#main_navigation ul{
+		/*border: 1px solid blue;*/
+		float: left;
+		display: inline;
+		padding: 0px;
+		margin: 0px auto;
+		margin-left: -10px;
+	}
+	
+	#main_navigation li{
+		display: inline;
+		font-size: 18px;
+		margin-top: 6px;
+		padding: 1px 10px 4px 9px;
+		float: left;
+		text-shadow: 0px 2px 5px #333;
+		font-family: 'Trochi', Serif, Georgia;
+		letter-spacing: 0.055em;
+	}
+	
+	#header_logo{
+		margin-left: -6px;
+	}
+	
+/*hero_image*/
+
+	.hero_image{
+		width: 960px;
+		height: 440px;
+		margin: 0;
+		display: inline;
+		float: left;
+		background-image: url(../img/nav/Web_Header.jpg);
+		box-shadow: 0px 2px 12px #333;
+		margin-top: 60px;
+	}		
+	
+	.big_logo{
+		float: right;
+		bottom: -300px;
+		right: 30px;
+		position: relative;
+		z-index: 500;
+	}
+		
+	
+/*images*/
+
+	#images img{
+		margin: 10px 16px 10px 0;
+		float: left;
+	}
+	
+	#instagram img{
+		margin: 12px 10px 10px 0px;
+	}
+	
+	#instagram {
+		background-color: #e3e2d6;
+		padding-left: 20px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		display: block;
+		width: 830px;
+		float: right;
+		margin-right: 52px;
+	}
+	
+	#instagram H2 {
+		color: #085163;
+		display: block;
+		position: relative;
+		float: left;
+		font-weight: 100;
+		font-size: 1.30em;
+		padding-right: 20px;
+		margin-bottom: -2px;
+	}
+	
+	.hello_poster{
+		float: right;
+		box-shadow: 0px 2px 12px black;
+		max-width: 260px;
+		margin: 0px 0px 10px 14px;
+		display: inline;
+		clear: both;
+	}
+	
+	.hello_poster_medium{
+		float: right;
+		box-shadow: 0px 2px 12px black;
+		max-width: 600px;
+		margin: 10px 0px 20px 14px;
+		display: inline;
+		clear: both;
+	}
+
+	.hello_poster_big{
+		box-shadow: 0px 2px 12px black;
+		max-width: 550px;
+		margin: 0px 0px 10px 0px;
+		display: block;
+	}
+	
+/****VIDEOS*****/
+	#video iframe{
+		margin: 35px 0px 0px 138px;
+		border: 1px solid #247897;
+		box-shadow: 1px 2px 6px #333;
+	}
+	
+	
+	
+.auto-resizable-iframe {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+	
+
+
+/*calendar*/
+
+	.calendar {
+		width: 270px;
+		line-height: 1.4em;
+		letter-spacing: 0.09em;
+		margin: 0px 10px 30px 30px;
+		padding: 0 4px 10px 0;
+		position: relative;
+		float: right;
+		color: #14243F;
+		font-family: 'ProximaNovaRegular' Helvetica, Sans-Serif;
+		display: block;
+	}
+
+	
+	.calendar_text{
+		width: 270px;
+		height: 492px;
+		padding: 90px 20px 0 35px;
+		float: left;
+		background-image: url(../img/bg/calendar_bg.png);
+		background-repeat: no-repeat;
+		background-position: top;
+		position: relative;
+		top: -10px;
+		right: 12px;
+		-webkit-transform: rotate(2deg);
+		-moz-transform: rotate(2deg);
+		-o-transform: rotate(2deg);
+		-ms-transform: rotate(2deg);
+		display: inline;
+		clear: both;
+	}
+	
+	.calendar_text H2{
+		width: 254px;
+		margin-bottom: 5px;
+		line-height: 1.25em;
+		padding-bottom: 5px;
+		font-size: 14px;
+		border-bottom: 2px solid #14243f;
+		font-family: 'TrocchiBold', Georgia, Serif;
+	}
+	
+	.calendar_text em{
+		font-weight: 700;
+		font-style: normal;
+	}
+	
+	.calendar a {
+		color: #7e1417;
+	}
+	
+	.calendar_text p{
+		margin-bottom: 23px;
+		margin-top: 0px;
+	}
+	
+/*TWITTER*/	
+	
+	.twitter {
+		width: 250px;
+		line-height: 1.4em;
+		letter-spacing: 0.09em;
+		margin: 16px 12px 30px 22px;
+		float: left;
+		display: block;
+		position: relative;
+		right: 25px;
+	}
+	
+/*EMAIL SIGN UP WIDGET*/	
+
+ .email_sign_up{
+		width: 223px;
+		line-height: 2.0em;
+		letter-spacing: 0.09em;
+		margin: -12px 0px 0px 0px;
+		float: left;
+		font-family: 'ProximaNovaRegular' Helvetica, Sans-Serif;
+		background-color: #133447;
+		padding: 4px 10px 3px 10px;
+		color: white;
+		font-size: 0.75em;
+		border: 1px dashed rgb(85, 85, 85);
+	}
+	
+	#mc_embed_signup input.button{
+		color: #14243f;
+		font-size: 12px;
+		opacity: 10;
+	}
+	
+	.email {
+		display: block;
+		padding: 8px 0;
+		margin: 0 4% 10px 0;
+		text-indent: 5px;
+		width: 250px;
+		width: 100%;
+	}	
+	
+	#mc_embed_signup input.email{
+		width: 95%;
+	}
+	
+	#mc_embed_signup form{
+		padding: 10px 0px 5px 3%;
+	}
+	
+/*SECTION BOX*/	
+
+	.section_box{
+		width: 958px;
+		float: left;
+		padding: 0;
+		background-color: #202B2F;
+		color: #ece6d9;
+		opacity: .9;
+		z-index: -100;
+		margin-top: 40px;
+		border-bottom: 1px solid #20272b;
+		border-right: 1px solid #20272b;
+		border-left: 1px solid #20272b;
+	}	
+	
+	.section_box_text ul {
+		margin: 0px;
+		left: -20px;
+		list-style: none;
+		position: relative;
+	}
+	
+	.section_box_text li {
+		margin-bottom: 10px;
+		border-bottom: 1px dotted black;
+		padding-bottom: 4px;
+	}
+		
+	.section_box_header{
+		height: 56px;
+		width: 928px;
+		float: left;
+		display: block;
+		background-color: #111F2D;
+		color: white;
+		padding: 56px 0px 0px 30px;
+		font-size: 34px;
+		text-shadow: 0px 2px 5px #333;
+		font-family: 'BodoniXTRegular', Georgia, Serif;
+		border-bottom: 1px solid #0b0e17;
+		border-top: 1px solid #0b0e17;
+	}
+	
+	.section_box_text{
+		line-height: 1.4em;
+		letter-spacing: 0.09em;
+		margin: 0px 10px 30px 30px;
+		padding: 0 4px 10px 0;
+		position: relative;
+		float: left;
+		color: #ece6d9;
+		font-family: 'ProximaNovaRegular' Helvetica, Sans-Serif;
+		font-weight: 500;
+	}
+	
+	.skinny_text{
+		width: 600px;
+	}
+	
+	.wide_text{
+		width: 890px;
+	}
+	
+	.section_box_text b {
+		color: #8ebbbc;
+	}
+	
+	.section_box_text H2{
+		width: 100%
+		margin-top: 30px;
+		margin-bottom: 20px;
+		line-height: 1.25em;
+		padding-bottom: 6px;
+		font-size: 15px;
+		border-bottom: 4px solid #ece6d9;
+		color: #ece6d9;
+	}
+	
+	.signature{
+		border-bottom: 1px gray dotted;
+		padding-bottom: 10px;
+		margin-bottom: 50px;
+	}
+	
+
+	
+/*section 2*/
+
+	.section_box_two{
+		width: 960px;
+		float: left;
+		padding: 0;
+		color: #202B2F;
+		margin-top: 25px;
+	}	
+	
+	.section_box_two_header{
+		height: 56px;
+		width: 928px;
+		float: left;
+		display: block;
+		background-color: #3F3D36;
+		color: white;
+		font-weight: 500;
+		padding: 54px 0px 0px 30px;
+		font-size: 34px;
+		text-shadow: 0px 2px 5px #333;
+		font-family: 'BodoniXTRegular', Georgia, Serif;
+		border: 1px solid #32302B;
+		opacity: 0.9;
+	}
+	
+	.section_box_two_text{
+		width: 270px;
+		margin: 50px 10px 30px 30px;
+		padding: 0 4px 2px 0;
+		position: relative;
+		float: left;
+		color: #ece6d9;
+		font-family: 'ProximaNovaRegular' Helvetica, Sans-Serif;
+		text-shadow: 0px 1px 5px #333;
+	}
+	
+	.section_box_two_header a, .section_box_header a{
+		float:right;
+		font-size: 11px;
+		color: #ece6d9;
+		margin: 10px 26px 0 0;
+	}
+	
+	.section_box_two_header a:hover, .section_box_header a:hover{
+		color: #8ebbbc;
+	}
+
+	
+/***JAMS****/
+
+	.section_box_jams_text{
+		width: 250px;
+		height: 440px;
+		margin: 45px 14px 30px 24px;
+		padding: 10px 15px 2px 20px;
+		position: relative;
+		float: left;
+		font-family: 'ProximaNovaRegular' Helvetica, Sans-Serif;
+		font-size: 1.00em;
+		color: #3f3d36;
+		background-image: url(../img/bg/paper.png);
+		background-size: 284px 450px;
+		background-repeat: no-repeat;
+	}
+	
+	.section_box_jams_text H2 {
+		padding-bottom: 8px;
+		margin-right: 4px;
+		margin-top: 10px;
+		padding-top: 10px;
+		border-bottom: 1px solid #667e8c;
+	}
+
+	.section_box_jams_text H1 {
+		color: #2b4e62;
+		padding-bottom: 8px;
+		margin-right: 4px;
+		border-bottom: 1px solid #667e8c;
+	}
+	
+	.section_box_jams_text img {
+		margin-right: 10px;
+	}
+	
+	.records{
+		width: 100%;
+		height: 640px;
+	}
+	
+	.section_box_jams_text a{
+		background-color: #2b4e62;
+		padding: 5px 8px;
+		color: white;
+		text-decoration: none;
+		box-shadow: 0px 1px 4px #707070;
+		margin: 2px;
+	}
+	
+	.section_box_jams_text a:hover{
+		background-color: #2b4e62;
+		padding: 6px 9px;
+	}	
+	
+/***HELLO***/
+
+
+
+	.tour_promo{
+		margin-top: 34px;
+		padding: 18px;
+		background-color: #131c20;
+		border: 1px dotted #5b737b;
+	}	
+	
+	.tour_promo p{
+		margin-top: -4px; padding: 0px; !important!
+	}
+	
+	.tour_promo img{
+		position: relative;
+		left: -36px;
+		margin: 0px; padding: 0px;
+	}
+	
+	.tour_promo H1{
+		font-size: 21px;
+		line-height: 1.05em;
+		padding: 0px; margin: 0px;
+	}
+	
+	.tour_promo form{
+		margin-left: 16px;
+	}
+	
+/*SHOWS*/	
+	
+	.section_box_shows_text{
+		width: 270px;
+		line-height: 1.4em;
+		letter-spacing: 0.09em;
+		margin: 0px 10px 30px 30px;
+		padding: 0 4px 0px 0;
+		position: relative;
+		float: left;
+		color: #ece6d9;
+		font-size: 13px;
+		font-family: 'ProximaNovaRegular' Helvetica, Sans-Serif;
+	}
+	
+	.section_box_shows_text p{
+		margin-bottom: 10px;
+	}
+	
+	.section_box_shows_text H2{
+		width: 264px;
+		margin-top: 30px;
+		line-height: 1.25em;
+		padding-bottom: 6px;
+		font-size: 15px;
+		border-bottom: 4px solid #ece6d9;
+		color: #ece6d9;
+	}
+	
+	.past_shows{
+		font-size: 11px;
+	}
+	
+/*****FLOATING BITS ******/
+	.solo_shapes{
+		position: relative;
+		right: -29px;
+		bottom: -1px;
+		float: right;
+	}
+
+	.mini_pony{
+		position: absolute;
+		bottom: -65px;
+		right: -100px;
+	}	
+	
+/*CONTACT BOXES*/
+
+	.contact_box_text{
+		width: 200px;
+		height: 340px;
+		margin: 20px 10px 30px 20px;
+		position: relative;
+		float: left;
+		color: #ece6d9;
+		font-family: 'ProximaNovaRegular' Helvetica, Sans-Serif;
+		font-size: 13px;
+	}	
+	
+	
+	.contact_box_text H2{
+		width: 180px;
+		line-height: 1.25em;
+		padding-bottom: 6px;
+		font-size: 15px;
+		border-bottom: 4px solid #ece6d9;
+		color: #ece6d9;
+	}
+	
+/*SHADOW*/	
+	.box_shadow{
+		box-shadow: 0px 2px 12px #333;
+	}
+	
+	.box_shadow_news{
+		box-shadow: 0px 2px 12px #000000;
+	}
+	
+	
+/*FOOTER*/
+
+	footer {
+		margin: 0 auto;
+		padding: 0;
+		width: 960px;
+		height: 50px;
+		float: left;
+		text-align: center;
+	}	
+	
+	.float_right{
+		float: right;
+	}
+
+	.float_left{
+		float: left;
+	}
+	
+	
+	
+/*FONTS*/
+	@font-face {
+	    font-family: 'ProximaNovaRegular';
+	    src: url('../fonts/proximanova-reg-webfont.eot');
+	    src: url('../fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/proximanova-reg-webfont.woff') format('woff'),
+	         url('../fonts/proximanova-reg-webfont.ttf') format('truetype'),
+	         url('../fonts/proximanova-reg-webfont.svg#ProximaNovaRegular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	
+	}
+	
+	@font-face {
+	    font-family: 'ProximaNovaBold';
+	    src: url('../fonts/proximanova-bold-webfont.eot');
+	    src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+	         url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+	         url('../fonts/proximanova-bold-webfont.svg#ProximaNovaBold') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	
+	}
+	
+	@font-face {
+	    font-family: 'ProximaNovaExtrabold';
+	    src: url('../fonts/proximanova-xbold-webfont.eot');
+	    src: url('../fonts/proximanova-xbold-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/proximanova-xbold-webfont.woff') format('woff'),
+	         url('../fonts/proximanova-xbold-webfont.ttf') format('truetype'),
+	         url('../fonts/proximanova-xbold-webfont.svg#ProximaNovaExtrabold') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}		
+	
+	@font-face {
+    font-family: 'BodoniXTRegular';
+    src: url('../fonts/BodoniXT-webfont.eot');
+    src: url('../fonts/BodoniXT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BodoniXT-webfont.woff') format('woff'),
+         url('../fonts/BodoniXT-webfont.ttf') format('truetype'),
+         url('../fonts/BodoniXT-webfont.svg#BodoniXTRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TrocchiRegular';
+    src: url('../fonts/Trocchi-webfont.eot');
+    src: url('../fonts/Trocchi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Trocchi-webfont.woff') format('woff'),
+         url('../fonts/Trocchi-webfont.ttf') format('truetype'),
+         url('../fonts/Trocchi-webfont.svg#TrocchiRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TrocchiBold';
+    src: url('../fonts/Trocchi-Bold-webfont.eot');
+    src: url('../fonts/Trocchi-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Trocchi-Bold-webfont.woff') format('woff'),
+         url('../fonts/Trocchi-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Trocchi-Bold-webfont.svg#TrocchiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Buttermilk';
+    src: url('../fonts/buttermilk.otf');
+    src: url('../fonts/buttermilk.otf') format('embedded-opentype'),
+         url('/wp-content/themes/trendland2012/fonts/tlfult-light.woff') format('woff'),
+         url('/wp-content/themes/trendland2012/fonts/tlfult-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+	

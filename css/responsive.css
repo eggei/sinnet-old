@@ -1,0 +1,174 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media (max-width: 800px) {
+  /* Hide main navigation when screen is small */
+  .navigation {
+    display: none;
+  }
+  /* Toggle hamburger menu on */
+  [role="hamburger-menu"] {
+    display: initial;
+  }
+
+  /* Relocate 2nd navigation for social connections */
+  .socials-links {
+    top: 12px;
+    left: initial;
+    right: 12px !important;
+    width: 40px;
+  }
+
+  .category_header {
+    margin-left: 0 !important;
+    font-size: 2.5em;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 18px;
+  }
+
+  .news_block {
+    padding: 30px;
+    width: initial;
+    margin-bottom: 30px;
+  }
+  
+  .news_block_clear{
+	  width: 100%;
+	  padding: 0%;
+	 }
+	 
+  .news_block h1{
+	margin: 10px 0px 0px 0px;
+	font-size: 24px;
+	  }	 
+  
+  .sinnet_links {
+	font-size: 29px;
+    padding-bottom: 10px;
+	}
+	
+	.sinnet_music_desktop	{
+	display: none
+	}
+	
+	.sinnet_music_mobile{
+		display: block;
+	}
+
+  /* Get iframes in line */
+  .iframe {
+    height: 420px !important;
+    width: auto !important;
+  }
+
+  .jams .category_header {
+    width: 85%;
+    text-align: center;
+  }
+
+  #slide7 {
+    height: 1400px;
+  }
+
+  #slide4 .box{
+	 margin: 0px 0px 8px 0px;
+	 width: 90%;
+	}  
+
+  #slide4 iframe{
+    width: 40%;
+    height: 141px;
+    padding: 6px;
+    margin: 8px 8px 8px 0px;
+		}
+	
+  .video {
+    display: initial;
+  }
+
+  .video .category_header {
+    width: auto;
+    text-align: left;
+  }
+
+  .video-container iframe {
+    width: 100% !important;
+    height: 250px !important;
+  }
+
+  .info_box_text {
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+
+  .sinnet-logo-container img {
+    height: 12vw;
+  }
+
+  .poster-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .poster {
+	width: 55%;
+    height: auto;
+    box-shadow: 0px 2px 8px rgb(24 24 24 / 20%);
+    margin: 0px 0px 15px 0px;
+}
+
+  .content {
+    padding: 10% 5%;
+    float: none;
+  }
+  
+	.info_box_text p {
+	  margin-bottom: 14px;
+	  line-height: 24px;
+	}  
+  
+	  
+	  
+   #slide1 img {
+    max-width: 900px;
+    max-height: 900px;
+    width: 90%;
+    height: 90%;
+    padding: 40px 30px; 
+   } 
+   
+   .photo_full_width{
+   display: none;
+	}	
+	
+	.photo_full_width_mobile{
+   display: block;
+	}	 
+
+
+.navigation li:hover,
+.active {
+  font-size: 26px;
+  color: #f38bb3;
+}
+  
+  
+  }
+}

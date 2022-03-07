@@ -1,0 +1,627 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "BebasRegular";
+  src: url("font/BEBAS___-webfont.eot");
+  src: url("font/BEBAS___-webfont.eot?#iefix") format("embedded-opentype"),
+    url("font/BEBAS___-webfont.woff") format("woff"),
+    url("font/BEBAS___-webfont.ttf") format("truetype"),
+    url("font/BEBAS___-webfont.svg#BebasRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
+  font-family: "brandon-grotesque";
+  line-height: 1.65em;
+  width: 100vw;
+  height: 100vh;
+  color: #38342b;
+  /* 
+  *** A bug report: ***
+    If you ever happen to add style here, know that it is going to break Stellar's functionality only in mobile browsers. 
+    (Stellar is the jQuery add on for parallax effect)
+  */
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #316972;
+}
+
+a:hover {
+  color: #123b4f;
+}
+
+.navigation {
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  font-size: 25px;
+  font-weight: 900;
+  font-style: italic;
+  color: #316972;
+}
+
+.sinnet_links {
+	font-size: 24px;
+    padding-bottom: 8px;
+	}
+
+.sinnet_links i {
+	padding-right: 5px;
+}	
+
+.navigation li {
+  display: block;
+  padding: 0 10px;
+  line-height: 27px;
+  margin-bottom: 2px;
+  font-weight: bold;
+  -webkit-transition: all 0.2s ease-in-out;
+  width: 84px;
+  text-align: right;
+}
+.navigation li:hover,
+.active {
+  font-size: 26px;
+  cursor: pointer;
+  color: #316972;
+}
+
+.slide {
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.wrapper {
+  width: 960px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slideno {
+  position: absolute;
+  bottom: -43px;
+  right: 0px;
+  font-size: 100px;
+  font-weight: bold;
+  font-style: italic;
+  color: rgba(34, 30, 30, 0.19);
+  letter-spacing: -5px;
+}
+.button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  right: 0%;
+  background-image: url(../img_new/BG/arrow.png);
+  background-size: 100%;
+}
+.button:hover {
+  background-color: rgba(220, 35, 10, 0.76);
+  cursor: pointer;
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1 {
+  background-color: #87c876;
+  background-repeat: repeat;
+  box-shadow: none;
+}
+
+#slide1 img {
+  max-width: 700px;
+  max-height: 700px;
+  margin: 0 auto;
+  width: 70%;
+  height: 70%;
+  display: block;
+  padding: 40px;
+}
+
+/******************************
+ SLIDE 2 NEWS
+*******************************/
+#slide2 {
+  background-color: #aad6f3;
+}
+
+#news .category_header {
+  margin-left: 58px;
+}
+
+H3 {
+  margin: 17px 0px 0px 0px;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+.show_info {
+  padding: 20px 0 20px 0px;
+  border-bottom: 2px dotted rgba(116, 62, 52, 0.49);
+  border-top: 2px dotted rgba(116, 62, 52, 0.49);
+  margin: 9px 0px;
+  max-width: 380px;
+  width: 100%;
+}
+
+.photo_full_width, .photo_full_width_mobile {
+margin-bottom: -4px;
+}
+
+.photo_full_width_mobile{
+	display: none;
+}
+
+.photo_full_width img, .photo_full_width_mobile img{
+	width: 100%;
+	height: inherit;
+	}
+
+/******************************
+ SLIDE 3 SHOWS
+*******************************/
+
+#bit-widget-0,
+bit-widget-container,
+#bit-events {
+  font-size: 20px;
+  font-family: "brandon-grotesque";
+  padding: 10px;
+}
+
+.bit-header-overflow-fix,
+.bit-header {
+  height: 50px;
+}
+
+#shows .category_header {
+  margin-left: 58px;
+}
+
+#slide3 {
+  background-color: #f38bb3;
+}
+
+}
+#slide3 img:nth-child(2) {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+#slide3 img:nth-child(3) {
+  position: absolute;
+  top: 150px;
+  left: 300px;
+}
+#slide3 img:nth-child(4) {
+  position: absolute;
+  top: 450px;
+  left: 300px;
+}
+#slide3 img:nth-child(5) {
+  position: absolute;
+  top: 200px;
+  right: 300px;
+}
+#slide3 img:nth-child(6) {
+  position: absolute;
+  top: 100px;
+  right: 300px;
+}
+
+.songkick-widget {
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+/******************************
+ SLIDE 4 JAMS
+*******************************/
+
+#slide4 {
+  background-color: #fff26e;
+}
+
+#slide4 iframe,
+#slide4 .box {
+  padding: 14px;
+  background-color: white;
+  border-radius: 6px;
+  line-height: 22px;
+}
+
+#slide4 .parallaxbg {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 28px;
+  color: rgba(51, 51, 51, 0.3);
+}
+
+.jams {
+  margin: 0 auto;
+}
+
+.box {
+  width: 80%;
+  max-width: 400px;
+}
+
+.jams .category_header {
+  margin-left: 58px;
+}
+
+.sinnet_music_mobile{
+display: none;
+}
+
+
+/******************************
+ SLIDE 5 VIDEO
+*******************************/
+
+#slide5 {
+  background-color: #85c775;
+  box-shadow: none;
+}
+
+.video-container {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.video .category_header {
+  text-align: left;
+}
+
+.video p {
+  background: rgba(255, 246, 231, 0.95);
+  padding: 7px 10px;
+  width: 100%;
+}
+
+/******************************
+ SLIDE 6 PHOTOS
+*******************************/
+
+#slide6 {
+  background-color: #aad6f3;
+}
+
+#slide6 .category_header {
+}
+
+/******************************
+ SLIDE 7
+*******************************/
+
+#slide7 {
+  background-color: #dcdbdb;}
+
+
+.info_box_text {
+  width: 22%;
+  padding: 10px 22px 10px 0px;
+  float: left;
+}
+
+.info_box_text img{
+  padding-top: 10px;
+}
+
+
+.info_box_text p {
+  margin-bottom: 14px;
+  line-height: 28px;
+}
+
+.info_links {
+    padding-bottom: 8px;
+    }
+
+
+.bio {
+  max-width: 900px;
+  margin-bottom: 60px;
+}
+
+.bio p {
+  margin-bottom: 20px;
+}
+
+/******************************
+ SLIDE Tennis CLub
+*******************************/
+
+#slide_tennis {
+  background-color: #59775f;
+  background-image: none;
+  background-image: opacity 0.5;
+  font-family: helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+#slide_tennis H2 {
+  font-size: 18px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 200;
+}
+
+#slide_tennis H3 {
+  font-size: 16px;
+  font-weight: 200;
+  color: #59775f;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+#slide_tennis hr {
+  margin: 20px 0px;
+  color: #59775f;
+}
+
+#slide_tennis .news_block {
+  border-radius: 8px;
+}
+
+.slide_tennis_img {
+  width: 30%;
+  border-radius: 6px;
+  min-width: 200px;
+  margin-left: 20px;
+}
+
+#tennis_footer img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.tennis_header_logo {
+  width: 25%;
+  margin: auto;
+}
+
+/******************************
+BACKGROUNDS
+*******************************/
+
+.sinnet_logo {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/******************************
+CONTAINERS
+*******************************/
+
+.main_container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  border: 3px solid dashed;
+}
+
+.content {
+  padding: 5%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.news_block {
+  width: 80%;
+  max-width: 1000px;
+  background-color: white;
+  padding: 60px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.news_block_clear {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0px 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.other_block {
+  width: 80%;
+  max-width: 1000px;
+  padding: 60px;
+  margin: 0 auto;
+}
+
+.news_block p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.poster {
+  width: 35%;
+  height: auto;
+  box-shadow: 0px 2px 8px rgb(24 24 24 / 20%);
+  float: right;
+  margin: 0 0px 32px 32px;
+}
+
+.poster_sm {
+  max-width: 300px;
+  width: 30%;
+  height: auto;
+  box-shadow: 0px 2px 8px rgba(24, 24, 24, 0.22);
+  margin-left: 20px;
+}
+
+.poster_md {
+  max-width: 400px;
+  width: 38%;
+  height: auto;
+  box-shadow: 0px 2px 7px rgba(24, 24, 24, 0.2);
+  margin-left: 20px;
+}
+
+.press_photo {
+  max-width: 400px;
+  width: 40%;
+  height: auto;
+  float: left;
+}
+
+.news_block h1 {
+  font-size: 22pt;
+  padding-bottom: 27px;
+  margin-bottom: 10px;
+  color: #2d2924;
+  font-weight: 600;
+  text-align: center;
+}
+
+.social_button {
+  float: right;
+  margin-left: 5px;
+}
+
+H2 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.2em;
+  margin-bottom: 6px;
+}
+
+.widget_songkick-concerts-widget {
+  font-size: 28px;
+}
+
+footer {
+  width: calc(100% - 16px);
+  font-size: 0.85em;
+  background-color: #316972;
+  color: #e7e7e7;
+  padding: 6px 8px;
+  text-align: center;
+}
+
+#easyXDM_3917121_1911_provider,
+#show {
+  font-family: sans-serif;
+}
+
+.category_header {
+  font-size: 3.4em;
+  font-style: italic;
+  color: #316972;
+  font-weight: 800;
+  letter-spacing: -1.75px;
+  margin-bottom: 18px;
+  
+}
+
+.category_header img {
+	height: 55px;
+}
+
+
+/******************************
+PRESS
+*******************************/
+
+.quote {
+  font-size: 1.4em;
+  font-style: italic;
+  line-height: 1.2em;
+  width: 45%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  text-align: right;
+  font-style: normal;
+  font-size: 0.8em;
+  float: right;
+}
+
+.quote_margin {
+  margin-right: 10%;
+}
+
+.box_link {
+  background-color: rgba(37, 119, 156, 0.23);
+  padding: 14px;
+  float: left;
+  margin: 10px 20px 10px 0px;
+}
+
+.spacer {
+  width: 100%;
+  height: 10px;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.press_text p {
+  max-width: 750px;
+  font-size: 1em;
+  margin-top: 18px;
+}
+
+.sinnet-logo-container {
+  position: absolute;
+  z-index: 10;
+  top: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.end-logo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
