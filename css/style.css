@@ -1,16 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face {
-  font-family: "BebasRegular";
-  src: url("font/BEBAS___-webfont.eot");
-  src: url("font/BEBAS___-webfont.eot?#iefix") format("embedded-opentype"),
-    url("font/BEBAS___-webfont.woff") format("woff"),
-    url("font/BEBAS___-webfont.ttf") format("truetype"),
-    url("font/BEBAS___-webfont.svg#BebasRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 html,
 body {
   font-family: "brandon-grotesque";
@@ -47,13 +37,13 @@ a:hover {
 }
 
 .sinnet_links {
-	font-size: 24px;
-    padding-bottom: 8px;
-	}
+  font-size: 24px;
+  padding-bottom: 8px;
+}
 
 .sinnet_links i {
-	padding-right: 5px;
-}	
+  padding-right: 5px;
+}
 
 .navigation li {
   display: block;
@@ -102,7 +92,6 @@ a:hover {
   position: absolute;
   bottom: 0px;
   right: 0%;
-  background-image: url(../img_new/BG/arrow.png);
   background-size: 100%;
 }
 .button:hover {
@@ -155,18 +144,20 @@ H3 {
   width: 100%;
 }
 
-.photo_full_width, .photo_full_width_mobile {
-margin-bottom: -4px;
+.photo_full_width,
+.photo_full_width_mobile {
+  margin-bottom: -4px;
 }
 
-.photo_full_width_mobile{
-	display: none;
+.photo_full_width_mobile {
+  display: none;
 }
 
-.photo_full_width img, .photo_full_width_mobile img{
-	width: 100%;
-	height: inherit;
-	}
+.photo_full_width img,
+.photo_full_width_mobile img {
+  width: 100%;
+  height: inherit;
+}
 
 /******************************
  SLIDE 3 SHOWS
@@ -193,7 +184,6 @@ bit-widget-container,
   background-color: #f38bb3;
 }
 
-}
 #slide3 img:nth-child(2) {
   position: absolute;
   top: 100px;
@@ -261,10 +251,9 @@ bit-widget-container,
   margin-left: 58px;
 }
 
-.sinnet_music_mobile{
-display: none;
+.sinnet_music_mobile {
+  display: none;
 }
-
 
 /******************************
  SLIDE 5 VIDEO
@@ -320,8 +309,8 @@ display: none;
 *******************************/
 
 #slide7 {
-  background-color: #dcdbdb;}
-
+  background-color: #dcdbdb;
+}
 
 .info_box_text {
   width: 22%;
@@ -329,10 +318,9 @@ display: none;
   float: left;
 }
 
-.info_box_text img{
+.info_box_text img {
   padding-top: 10px;
 }
-
 
 .info_box_text p {
   margin-bottom: 14px;
@@ -340,9 +328,8 @@ display: none;
 }
 
 .info_links {
-    padding-bottom: 8px;
-    }
-
+  padding-bottom: 8px;
+}
 
 .bio {
   max-width: 900px;
@@ -549,13 +536,11 @@ footer {
   font-weight: 800;
   letter-spacing: -1.75px;
   margin-bottom: 18px;
-  
 }
 
 .category_header img {
-	height: 55px;
+  height: 55px;
 }
-
 
 /******************************
 PRESS
