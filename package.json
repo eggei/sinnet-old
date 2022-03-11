@@ -2,14 +2,12 @@
   "name": "sinnet-web",
   "author": "M.Ege Ercan - contact@eggei.com",
   "license": "ISC",
-  "source": "src/lo.html",
   "scripts": {
-    "start": "parcel",
+    "start": "parcel src/index.hbs --no-cache",
     "build": "parcel build",
     "eslint:fix": "eslint --fix src",
     "prettier:fix": "prettier --write src",
-    "fix": "yarn run eslint:fix && yarn run prettier:fix",
-    "start-hbs": "parcel src/index.hbs --no-cache"
+    "fix": "yarn run eslint:fix && yarn run prettier:fix"
   },
   "devDependencies": {
     "@inventory/parcel-plugin-handlebars": "^1.0.0",

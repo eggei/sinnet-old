@@ -1,0 +1,29 @@
+<div class="content" id="news">
+  <p class="category_header">
+    <img src="../public/img_new/logos/NEWS.png" />
+  </p>
+  {{#each news}}
+  <div class="news_block">
+    <h1>
+      {{this.title}}
+    </h1>
+    <div class="poster-container">
+      <img class="poster" src="../public/photos/{{this.image.src}}" alt="{{this.image.alt}}" />
+    </div>
+    {{#each this.body}}
+    <p>
+      {{{this}}}
+    </p>
+    {{/each}}
+    <br />
+    <iframe style="border: 0; width: 100%; height: 406px; max-width: 400px" src="{{this.bandcamp.embedLink}}" seamless>
+      <a href="{{this.bandcamp.link}}">
+        Island Town by Sinnet
+      </a>
+    </iframe>
+    <p>
+      {{{this.signature}}}
+    </p>
+  </div>
+  {{/each}}
+</div>
