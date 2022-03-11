@@ -1,5 +1,10 @@
 import $ from "jquery";
 
+require("../../lib/jquery.stellar.min");
+require("../../lib/jquery.easing.1.3");
+require("../../lib/jquery.smooth-scroll.min");
+require("../../lib/waypoints.min");
+
 // initialise Stellar.js
 $("body").stellar({
   verticalScrolling: true,

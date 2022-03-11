@@ -2,3 +2,4 @@ dist
 cgi-bin
 public
 unused
+lib

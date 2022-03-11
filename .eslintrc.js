@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   env: {
     browser: true,
     es2021: true,
@@ -10,5 +10,3 @@ const config = {
   },
   rules: {},
 };
-
-export default config;
