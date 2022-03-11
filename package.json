@@ -6,7 +6,9 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "fix": "eslint src/ --fix"
+    "eslint:fix": "eslint --fix src",
+    "prettier:fix": "prettier --write src",
+    "fix": "yarn run eslint:fix && yarn run prettier:fix"
   },
   "devDependencies": {
     "eslint": "^8.10.0",

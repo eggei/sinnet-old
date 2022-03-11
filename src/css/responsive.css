@@ -46,29 +46,29 @@
     width: initial;
     margin-bottom: 30px;
   }
-  
-  .news_block_clear{
-	  width: 100%;
-	  padding: 0%;
-	 }
-	 
-  .news_block h1{
-	margin: 10px 0px 0px 0px;
-	font-size: 24px;
-	  }	 
-  
+
+  .news_block_clear {
+    width: 100%;
+    padding: 0%;
+  }
+
+  .news_block h1 {
+    margin: 10px 0px 0px 0px;
+    font-size: 24px;
+  }
+
   .sinnet_links {
-	font-size: 29px;
+    font-size: 29px;
     padding-bottom: 10px;
-	}
-	
-	.sinnet_music_desktop	{
-	display: none
-	}
-	
-	.sinnet_music_mobile{
-		display: block;
-	}
+  }
+
+  .sinnet_music_desktop {
+    display: none;
+  }
+
+  .sinnet_music_mobile {
+    display: block;
+  }
 
   /* Get iframes in line */
   .iframe {
@@ -85,18 +85,18 @@
     height: 1400px;
   }
 
-  #slide4 .box{
-	 margin: 0px 0px 8px 0px;
-	 width: 90%;
-	}  
+  #slide4 .box {
+    margin: 0px 0px 8px 0px;
+    width: 90%;
+  }
 
-  #slide4 iframe{
+  #slide4 iframe {
     width: 40%;
     height: 141px;
     padding: 6px;
     margin: 8px 8px 8px 0px;
-		}
-	
+  }
+
   .video {
     display: initial;
   }
@@ -126,49 +126,43 @@
     display: flex;
     justify-content: center;
   }
-  
+
   .poster {
-	width: 55%;
+    width: 55%;
     height: auto;
     box-shadow: 0px 2px 8px rgb(24 24 24 / 20%);
     margin: 0px 0px 15px 0px;
-}
+  }
 
   .content {
     padding: 10% 5%;
     float: none;
   }
-  
-	.info_box_text p {
-	  margin-bottom: 14px;
-	  line-height: 24px;
-	}  
-  
-	  
-	  
-   #slide1 img {
+
+  .info_box_text p {
+    margin-bottom: 14px;
+    line-height: 24px;
+  }
+
+  #slide1 img {
     max-width: 900px;
     max-height: 900px;
     width: 90%;
     height: 90%;
-    padding: 40px 30px; 
-   } 
-   
-   .photo_full_width{
-   display: none;
-	}	
-	
-	.photo_full_width_mobile{
-   display: block;
-	}	 
+    padding: 40px 30px;
+  }
 
+  .photo_full_width {
+    display: none;
+  }
 
-.navigation li:hover,
-.active {
-  font-size: 26px;
-  color: #f38bb3;
-}
-  
-  
+  .photo_full_width_mobile {
+    display: block;
+  }
+
+  .navigation li:hover,
+  .active {
+    font-size: 26px;
+    color: #f38bb3;
   }
 }
