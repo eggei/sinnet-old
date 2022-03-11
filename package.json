@@ -2,23 +2,27 @@
   "name": "sinnet-web",
   "author": "M.Ege Ercan - contact@eggei.com",
   "license": "ISC",
-  "source": "src/index.html",
+  "source": "src/lo.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
     "eslint:fix": "eslint --fix src",
     "prettier:fix": "prettier --write src",
-    "fix": "yarn run eslint:fix && yarn run prettier:fix"
+    "fix": "yarn run eslint:fix && yarn run prettier:fix",
+    "start-hbs": "parcel src/index.hbs --no-cache"
   },
   "devDependencies": {
+    "@inventory/parcel-plugin-handlebars": "^1.0.0",
     "eslint": "^8.10.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
-    "parcel": "latest",
+    "parcel-bundler": "latest",
+    "parcel-transformer-hbs": "^1.0.4",
     "prettier": "^2.5.1"
   },
   "dependencies": {
+    "handlebars": "^4.7.7",
     "jquery": "^3.6.0"
   }
 }
