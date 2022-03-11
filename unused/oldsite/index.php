@@ -133,19 +133,19 @@ content="Sinnet is a Boston based, spooky-pants, indie-rock team! Formed by Aaro
 			IMAGES 
 		</div>
 		<div id="instagram" class="box_shadow">
-			<img src="img/photos/instagram.png" alt="instagram" width="" height="" /> <h2>Sinnet on Instagram  / #sinnetsongs</h2> 
+			<img src="img/public/photosinstagram.png" alt="instagram" width="" height="" /> <h2>Sinnet on Instagram  / #sinnetsongs</h2> 
 			<iframe src="http://snapwidget.com/in/?u=c2lubmV0c29uZ3N8aW58MjUwfDN8Mnx8eWVzfDE1fGZhZGVPdXQ=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:825px; height: 550px" ></iframe>
 		</div>	
 		<img class="box_shadow" src="img/dudes/onthetown_panorama.jpg" alt="onthetown_panorama" width="" height="" />
-		<a href="http://www.flickr.com/photos/johnnyanguish/11040904643/" title="Sinnet @ T.T. The Bear's Place 11.20.2013 by johnny anguish, on Flickr"><img class="box_shadow" src="http://farm8.staticflickr.com/7440/11040904643_df5574f9c6_c.jpg" width="800" height="534" alt="Sinnet @ T.T. The Bear's Place 11.20.2013"></a>
-		<img class="box_shadow" src="img/photos/panorama.png" alt="panorama" width="" height="" />
+		<a href="http://www.flickr.com/public/photosjohnnyanguish/11040904643/" title="Sinnet @ T.T. The Bear's Place 11.20.2013 by johnny anguish, on Flickr"><img class="box_shadow" src="http://farm8.staticflickr.com/7440/11040904643_df5574f9c6_c.jpg" width="800" height="534" alt="Sinnet @ T.T. The Bear's Place 11.20.2013"></a>
+		<img class="box_shadow" src="img/public/photospanorama.png" alt="panorama" width="" height="" />
 		<img class="box_shadow" src="img/posters/TT's.jpeg" alt="TT's" width="358" height="600" />
-		<img class="box_shadow float_right" src="img/photos/drislane.jpeg" alt="drislane" width="450" />
+		<img class="box_shadow float_right" src="img/public/photosdrislane.jpeg" alt="drislane" width="450" />
 		<img class="box_shadow" src="img/MIA.jpg" alt="MIA" width="350" height="226" />
-		<img class="float_left" src="img/photos/sinnet_cartoon_letters.png" alt="sinnet_cartoon_letters" width="188" height="85" />
+		<img class="float_left" src="img/public/photossinnet_cartoon_letters.png" alt="sinnet_cartoon_letters" width="188" height="85" />
 		<img class="box_shadow" src="img/posters/PA's.jpeg" alt="PA's" width="395" height="600" />
 		<img class="box_shadow" src="img/posters/o'briens3.jpg" alt="o'briens3" width="450" height="" />
-		<img class="box_shadow" src="img/photos/Aaron.jpg" alt="Aaron" width="530" />
+		<img class="box_shadow" src="img/public/photosAaron.jpg" alt="Aaron" width="530" />
 	</div> 
 <!--end of images -->
 	

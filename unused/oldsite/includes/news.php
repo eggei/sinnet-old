@@ -108,7 +108,7 @@ Last but not least, we have a bunch of bitchin' shows lined up – with the new 
 		Head over to Vanyaland now to Check it Out:<br>
 		<b><a href="http://www.vanyaland.com/2014/03/24/vanyaland-premiere-sinnet-raise-mighty-beast-new-video-year-whale/" target="_blank">Year of the Whale Music Video</a></b> 
 	<p>
-	<p><a href="javascript:void(0)" onClick="goToByScroll('video')"><img class="hello_poster_medium" src="img/photos/yotw_screen.png" alt="yotw_screen" height="" /></a></p>
+	<p><a href="javascript:void(0)" onClick="goToByScroll('video')"><img class="hello_poster_medium" src="img/public/photosyotw_screen.png" alt="yotw_screen" height="" /></a></p>
 	<p class="signature">
 		4/23/14
 	</p>
@@ -143,7 +143,7 @@ Last but not least, we have a bunch of bitchin' shows lined up – with the new 
 	<br>
 	<h2>Sinnet at The International Pop Overthrow</h2>
 	<p>
-	<img src="/img/photos/toonsis.gif" align="right" alt="toonsis" width="300" vspace="10px" hspace="10px" border="1 " />
+	<img src="/img/public/photostoonsis.gif" align="right" alt="toonsis" width="300" vspace="10px" hspace="10px" border="1 " />
 		Sinnet will be making a return to the International Pop Overthrow at Precinct Bar in Somerville. IPO is a 3-Day Music fest that takes place in New York, Chicago and Liverpool. We're pleased to be asked to play again.  <a href="http://internationalpopoverthrow.com/">internationalpopoverthrow.com</a><br>
 		We play at <b>8:15pm</b>.
 	</p>
@@ -189,7 +189,7 @@ Last but not least, we have a bunch of bitchin' shows lined up – with the new 
 		-or- <br>
 		If vinyl isn't your bag download all 4 songs on <a href="http://www.sinnet.bandcamp.com">BANDCAMP</a>
 	</p>
-	<a href="https://www.facebook.com/events/352323498232776/"><img class="hello_poster_big" src="poster/WHALE_RELEASE_POSTER.jpg" alt="WHALE_RELEASE_POSTER" width="" height="" /></a>
+	<a href="https://www.facebook.com/events/352323498232776/"><img class="hello_poster_big" src="public/posterWHALE_RELEASE_POSTER.jpg" alt="WHALE_RELEASE_POSTER" width="" height="" /></a>
 </div>
 <div class="section_box_text wide_text">
 	<h2>New Single - "Year of the Whale"</h2>
@@ -217,7 +217,7 @@ Last but not least, we have a bunch of bitchin' shows lined up – with the new 
 <div class="section_box_text wide_text">
 	<h2>April in Sinnet Land</h2>
 	<p>
-		Hey Kiddies!<br><img class="hello_poster" src="img/photos/guitars_girard.jpg" alt="guitars_girard" width="" height="" />
+		Hey Kiddies!<br><img class="hello_poster" src="img/public/photosguitars_girard.jpg" alt="guitars_girard" width="" height="" />
 		Never mind the April showers. Here in Sinnet Land, the sun is shining and great things are afoot! <b>Aaron is playing a SOLO SHOW</b> at Middlesex Lounge next Weds. 
 		The set is sure include ALL of the "hits", psychedelic freak-outs and plenty of questionable covers. </p>
 	<p>
@@ -378,7 +378,7 @@ Last but not least, we have a bunch of bitchin' shows lined up – with the new 
 </div>
 <div class="section_box_text wide_text">
 	<H2>Midwest Manners Press Etc.</h2>
-	<img class="hello_poster" src="img/photos/noisey_neighbors.jpg" alt="noisey_neighbors" width="" height="" />
+	<img class="hello_poster" src="img/public/photosnoisey_neighbors.jpg" alt="noisey_neighbors" width="" height="" />
 	<p>
 		<b>The Boston Globe</b> wrote a nice review of our ep. Unfortunately, you have to have a subscription to read all of it.
 		But check it out: <a href="http://www.boston.com/ae/music/cd_reviews/articles/2012/02/03/noisy_neighbors_sinnet_midwest_manners/">HERE</a>
